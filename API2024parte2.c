@@ -274,4 +274,8 @@ char ElimGarak(Grafo G, u32 *Orden){
     "elif lista[i].color div 2 y lista[j].color no, entonces la primera va primero"
     "elif lista[i].color div 2 y lista[j].color tambien, se ordenan por lista[x].mGrande + lista[x].mChica"
     "elif lista[i].color no div  y lista[j].color tampoco, se ordenan por lista[x].mChica"
+
+    Nota: Todo esto se puede hacer en teoria con el qsort de C, si vas a los docs, 
+    esta remil sobrecargado y hay muchas formas de usarlo, entre ellas pasarle condiciones
+    asi que nomas habria que ver bien como hacer eso y ya quedaria nlogn
     */
